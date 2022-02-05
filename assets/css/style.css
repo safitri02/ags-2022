@@ -1,0 +1,18 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrap {
+    padding: 0px 100px;
+    width: 100%;
+}
+
+/* Style navbar */
+.nav-item a{
+    font-size: 20px;
+    margin-left: 23px;
+}
+
+.d-flex img{
+    margin-left: 20px;
+}
