@@ -9,10 +9,15 @@
 
 /* Style navbar */
 .nav-item a{
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 23px;
 }
 
 .d-flex img{
     margin-left: 20px;
+}
+
+.carousel img{
+    background-size: cover;
+    height: 550px;
 }
