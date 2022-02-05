@@ -1,5 +1,10 @@
+:root{
+    --red: #DF4444;
+    --black: #423D3D;
+}
+
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika', sans-serif;
 }
 
 .wrap {
@@ -17,7 +22,42 @@
     margin-left: 20px;
 }
 
+/* Style Carrousel  */
 .carousel img{
     background-size: cover;
     height: 550px;
 }
+
+.caption1 h1, p{
+    width: 73%;
+    text-align: left;
+    margin-left: -110px;
+}
+
+.caption1 p{
+    font-size: 22px;
+    color: var(--black);
+}
+
+.caption1 h1{
+    font-size: 55px;
+    color: var(--red);
+}
+
+.caption1 button{
+    margin-bottom: 90px;
+    margin-left: -110px;
+    background-color: var(--black);
+    color: white;
+    border-radius: 10px;
+}
+
+.caption1 button:hover{
+    color: white;
+    background-color: var(--red);
+    transition-duration: 0.5s;
+    
+}
+
+
+
