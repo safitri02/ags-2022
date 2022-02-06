@@ -64,7 +64,8 @@
 .produk .card{
     border: none;
     border-radius: 20px;
-    box-shadow: 5px 5px 15px rgba(100, 100, 100, 0.3);
+    box-shadow: 5px 5px 15px rgba(165, 168, 204, 0.3);
+    /* box-shadow: 5px 5px 15px rgba(100, 100, 100, 0.3); */
 }
 
 .produk .card img{
@@ -91,4 +92,11 @@
 }
 /* End style produk terpopuler */
 
+/* Style produk terbaru */
+.terbaru .card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(165, 168, 204, 0.3);
+}
 
+/* End style produk terbaru */
