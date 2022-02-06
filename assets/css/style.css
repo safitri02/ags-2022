@@ -28,7 +28,7 @@
     height: 550px;
 }
 
-.caption1 h1, p{
+.caption1 h1, .p{
     width: 73%;
     text-align: left;
     margin-left: -110px;
@@ -58,6 +58,37 @@
     transition-duration: 0.5s;
     
 }
+/* End Style Carrousel */
 
+/* Style Produk Terpopuler */
+.produk .card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(100, 100, 100, 0.3);
+}
+
+.produk .card img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.produk .card-link{
+    color: var(--red);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.produk .card .btn{
+    border-radius: 8px;
+    background-color: var(--red);
+    border: none;
+}
+
+.produk .lengkap{
+    border-radius: 8px;
+    background-color: var(--red);
+    border: none;
+}
+/* End style produk terpopuler */
 
 
