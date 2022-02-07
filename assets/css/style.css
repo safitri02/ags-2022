@@ -49,7 +49,7 @@
 }
 
 .caption1 button{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     margin-left: -110px;
     background-color: var(--black);
     color: white;
@@ -140,7 +140,7 @@
 }
 
 .review{
-    padding:20px;
+    padding:10px;
 }
 
 .review img{
