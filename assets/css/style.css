@@ -109,14 +109,14 @@
 
 /* Style alasan  */
 .alasan{
-    height: 330px;
+    height: 350px;
     background-color: var(--red);
     border-radius: 20px;
     color: white;
 }
 
 .alasan img{
-    height: 330px;
+    height: 350px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -141,13 +141,32 @@
 
 .review{
     padding:20px;
-    background-color: #f5f4f4;
 }
 
 .review img{
-    border:5px solid #ffffff;
+    border:5px solid #f5f4f4;
     border-radius: 50%;
     width:250px;
     height: 270px;
 }
 /* End style review */
+
+/* Style footer */
+.footer{
+    height: 380px;
+    background-color: var(--black);
+    color: white;
+}
+
+.footer li {
+    margin-top: 8px;
+    margin-left: -30px;
+    list-style: none;
+}
+
+.footer button{
+    background-color: var(--red);
+    border: none;
+    border-radius: 8px;
+}
+/* End style footer */
