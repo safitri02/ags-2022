@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.mt-8{
+    margin-top: 80px;
+}
+
 .wrap {
     padding: 0px 100px;
     width: 100%;
@@ -85,10 +89,13 @@
     border: none;
 }
 
-.produk .lengkap{
+.lengkap{
     border-radius: 8px;
     background-color: var(--red);
     border: none;
+    padding: 5px 13px;
+    text-decoration: none;
+    color: white;
 }
 /* End style produk terpopuler */
 
@@ -98,5 +105,49 @@
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(165, 168, 204, 0.3);
 }
-
 /* End style produk terbaru */
+
+/* Style alasan  */
+.alasan{
+    height: 330px;
+    background-color: var(--red);
+    border-radius: 20px;
+    color: white;
+}
+
+.alasan img{
+    height: 330px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.alasan a{
+    color: var(--red);
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+}
+.alasan a:hover{
+    color: white;
+    background-color: var(--black);
+    border-radius: 8px;
+    border: none;
+}
+/* End style alasan */
+
+/* Style Review */
+.review .carousel-item{
+    text-align: center;
+}
+
+.review{
+    padding:20px;
+    background-color: #f5f4f4;
+}
+
+.review img{
+    border:5px solid #ffffff;
+    border-radius: 50%;
+    width:250px;
+    height: 270px;
+}
+/* End style review */
