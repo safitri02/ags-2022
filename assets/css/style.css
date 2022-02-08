@@ -1,10 +1,12 @@
 :root{
     --red: #DF4444;
     --black: #423D3D;
+    --red-hover : #AD3333;
+    --gray-bg : #F4F4F4;
 }
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Signika', sans-serif;
 }
 
 .mt-8{
@@ -21,21 +23,36 @@
     font-size: 18px;
     margin-left: 23px;
 }
-
-.d-flex img{
-    margin-left: 20px;
+.navbar {
+    height: 70px;
 }
-
+.d-flex img{
+    margin : 0px 20px;
+    width: 25px;
+    color: gray;
+}
 /* Style Carrousel  */
+.carousel {
+    height: 550px;
+    overflow : hidden;
+    position : relative;
+}
+.carousel-caption img {
+    position : absolute;
+    left : -100px;
+    top : -70px;
+    width: 305px;
+}
 .carousel img{
     background-size: cover;
-    height: 550px;
 }
-
 .caption1 h1, .p{
     width: 73%;
     text-align: left;
     margin-left: -110px;
+}
+.caption1 h1 {
+    font-weight: bold;
 }
 
 .caption1 p{
@@ -71,10 +88,14 @@
     box-shadow: 5px 5px 15px rgba(165, 168, 204, 0.3);
     /* box-shadow: 5px 5px 15px rgba(100, 100, 100, 0.3); */
 }
+.produk h2 {
+    font-weight: bold;
+    margin : 114px 0px;
+}
 
 .produk .card img{
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 30px;
+    padding : 20px;
 }
 
 .produk .card-link{
@@ -89,21 +110,39 @@
     border: none;
 }
 
-.lengkap{
-    border-radius: 8px;
+.btn-selengkapnya a{
+    border-radius: 10px;
     background-color: var(--red);
     border: none;
-    padding: 5px 13px;
+    padding: 10px 25px;
     text-decoration: none;
+    transition: 0.3s;
     color: white;
+}
+.btn-selengkapnya {
+    margin: 80px 0px;
+}
+.btn-selengkapnya a:hover {
+    color : #fff;
+    background-color: var(--red-hover);
 }
 /* End style produk terpopuler */
 
 /* Style produk terbaru */
+.bg-terbaru {
+    background-color: var(--gray-bg);
+}
 .terbaru .card{
     border: none;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(165, 168, 204, 0.3);
+}
+.terbaru h2 {
+    font-weight: bold;
+    padding: 65px 0px;
+}
+.card-title {
+    font-weight: bold;
 }
 /* End style produk terbaru */
 
