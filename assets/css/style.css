@@ -198,10 +198,25 @@
 /* End style alasan */
 
 /* Style Review */
+.review{
+    background-image: url('../img/bg-review.jpg');
+}
+
 .review .carousel-item{
     text-align: center;
 }
-
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    margin: 10px;
+}
+.review-arrow {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
 .review{
     padding:10px;
 }
