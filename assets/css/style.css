@@ -94,11 +94,11 @@
 .produk .card img{
     border-radius: 30px;
     padding : 20px;
-    transition: transform .5s, filter 1.5s ease-in-out;
 }
 
 .produk .card:hover img {
-    transform: scale(1.1);
+    opacity: 0.8;
+    transition: transform .5s, filter 1.5s ease-in-out;
   }
 
 .produk .card-link{
