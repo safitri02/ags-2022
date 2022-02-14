@@ -23,9 +23,11 @@
     font-size: 18px;
     margin-left: 23px;
 }
+
 .navbar {
     height: 70px;
 }
+
 .d-flex img{
     margin : 0px 20px;
     width: 25px;
@@ -218,7 +220,7 @@
 .footer{
     height: 380px;
     background-color: var(--black);
-    color: white;
+    /* color: white; */
 }
 
 .footer li {
