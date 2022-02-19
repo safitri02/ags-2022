@@ -1,15 +1,15 @@
-:root{
+:root {
     --red: #DF4444;
     --black: #423D3D;
-    --red-hover : #AD3333;
-    --gray-bg : #F4F4F4;
+    --red-hover: #AD3333;
+    --gray-bg: #F4F4F4;
 }
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
 
-.mt-8{
+.mt-8 {
     margin-top: 80px;
 }
 
@@ -19,7 +19,7 @@
 }
 
 /* Style navbar */
-.nav-item a{
+.nav-item a {
     font-size: 18px;
     margin-left: 23px;
 }
@@ -28,8 +28,8 @@
     height: 70px;
 }
 
-.d-flex img{
-    margin : 0px 20px;
+.d-flex img {
+    margin: 0px 20px;
     width: 25px;
     color: gray;
 }
@@ -37,39 +37,40 @@
 /* Style Carrousel  */
 .carousel {
     height: 550px;
-    overflow : hidden;
-    position : relative;
+    overflow: hidden;
+    position: relative;
 }
 
 .carousel-caption img {
-    position : absolute;
-    left : -100px;
-    top : -70px;
+    position: absolute;
+    left: -100px;
+    top: -70px;
     width: 305px;
 }
 
-.carousel img{
+.carousel img {
     background-size: cover;
 }
 
-.caption1 h1, .p{
+.caption1 h1,
+.p {
     width: 75%;
     text-align: left;
     margin-left: -110px;
 }
 
-.caption1 p{
+.caption1 p {
     font-size: 22px;
     color: var(--black);
 }
 
-.caption1 h1{
+.caption1 h1 {
     font-weight: bold;
     font-size: 55px;
     color: var(--red);
 }
 
-.caption1 button{
+.caption1 button {
     margin-bottom: 55px;
     margin-left: -110px;
     background-color: var(--black);
@@ -77,56 +78,58 @@
     border-radius: 10px;
 }
 
-.caption1 button:hover{
+.caption1 button:hover {
     color: white;
     background-color: var(--red);
     transition-duration: 0.5s;
-    
+
 }
+
 /* End Style Carrousel */
 
 /* Style Produk Terpopuler */
-.produk .card{
+.produk .card {
     border: none;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(165, 168, 204, 0.3);
     /* box-shadow: 5px 5px 15px rgba(100, 100, 100, 0.3); */
 }
 
-.produk .card img{
+.produk .card img {
     border-radius: 30px;
-    padding : 20px;
+    padding: 20px;
+    transition: transform .5s, filter 1.5s ease-in-out;
 }
 
 .produk .card:hover img {
-    opacity: 0.8;
-    transition: transform .5s, filter 1.5s ease-in-out;
-  }
+    transform: scale(1.1);
+}
 
-.produk .card-link{
+.produk .card-link {
     color: var(--red);
     font-weight: 600;
     text-decoration: none;
 }
 
-.produk .card .btn{
+.produk .card .btn {
     border-radius: 8px;
     background-color: var(--red);
     border: none;
 }
 
-.produk .selengkapnya{
+.produk .selengkapnya {
     background-color: var(--red);
     border-radius: 8px;
     border: none;
     transition: 0.3s;
 }
-.produk .selengkapnya:hover{
-    color : #fff;
+
+.produk .selengkapnya:hover {
+    color: #fff;
     background-color: var(--red-hover);
 }
 
-.selengkapnya{
+.selengkapnya {
     background-color: var(--red);
     border-radius: 8px;
     border: none;
@@ -134,7 +137,7 @@
 }
 
 .selengkapnya a:hover {
-    color : #fff;
+    color: #fff;
     background-color: var(--red-hover);
 }
 
@@ -142,23 +145,23 @@
 
 /* Style produk terbaru */
 .bg-terbaru {
-    background-color: var(--gray-bg); 
+    background-color: var(--gray-bg);
     padding-bottom: 50px;
 }
 
-.terbaru .card{
+.terbaru .card {
     border: none;
     border-radius: 20px;
     box-shadow: 5px 5px 15px rgba(165, 168, 204, 0.3);
 }
 
-.terbaru .btn{
+.terbaru .btn {
     background-color: var(--red);
     border: none;
     border-radius: 8px;
 }
 
-.terbaru .btn:hover{
+.terbaru .btn:hover {
     background-color: var(--red-hover);
 }
 
@@ -170,54 +173,60 @@
 .card-title {
     font-weight: bold;
 }
+
 /* End style produk terbaru */
 
 /* Style alasan  */
-.alasan{
+.alasan {
     height: 350px;
     background-color: var(--red);
     border-radius: 20px;
     color: white;
 }
 
-.alasan img{
+.alasan img {
     height: 350px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.alasan a{
+
+.alasan a {
     color: var(--red);
     background-color: white;
     border-radius: 8px;
     border: none;
 }
-.alasan a:hover{
+
+.alasan a:hover {
     color: white;
     background-color: var(--black);
     border-radius: 8px;
     border: none;
 }
+
 /* End style alasan */
 
 /* Style Review */
-.review .carousel-item{
+.review .carousel-item {
     text-align: center;
 }
 
-.review{
-    padding:10px;
+.review {
+    padding: 10px;
 }
 
-.review img{
-    border:5px solid #f5f4f4;
+.review img {
+    border: 5px solid #f5f4f4;
     border-radius: 50%;
-    width:250px;
+    width: 250px;
     height: 270px;
+    object-fit: cover;
 }
+
 /* End style review */
 
 /* Style footer */
-.footer{
+.footer {
     height: 380px;
     background-color: var(--black);
     /* color: white; */
@@ -229,9 +238,10 @@
     list-style: none;
 }
 
-.footer button{
+.footer button {
     background-color: var(--red);
     border: none;
     border-radius: 8px;
 }
+
 /* End style footer */
