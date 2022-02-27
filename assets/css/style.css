@@ -264,3 +264,11 @@
 }
 
 /* End style footer */
+
+@media only screen and (min-width: 900px) {
+    .p-review {
+        display: flex;
+        justify-content: center;
+        width: 65% !important;
+    }
+  }
